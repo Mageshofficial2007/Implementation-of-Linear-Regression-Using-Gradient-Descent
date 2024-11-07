@@ -24,6 +24,7 @@ Developed by: MAGESH BOOPATHI.M
 RegisterNumber:  24900855
 */
 ```
+```
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
@@ -51,6 +52,7 @@ prediction=prediction.reshape(-1,1)
 pre=scaler.inverse_transform(prediction)
 print (data.head)
 print(f"Predicted value: {pre}")
+```
 ## Output:
 ![linear regression using gradient descent](sam.png)
 ![Screenshot 2024-11-07 092625](https://github.com/user-attachments/assets/e300544c-c7f4-442c-a341-d99be4336d66)
